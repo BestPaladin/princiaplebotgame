@@ -6,6 +6,7 @@ client.login(process.env.TOKEN);
 
 client.on("ready", () => {
   console.log("PrincipaleBotGAME est allumé !");
+  setTimeOut(une, 1000);
 }); 
 
 function une()
