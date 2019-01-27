@@ -7,9 +7,8 @@ client.login(process.env.TOKEN);
 client.on("ready", () => {
   console.log("PrincipaleBotGAME est allumé !");
   setTimeOut(une, 1000);
-}); 
-
-function une()
+  
+  function une()
 {
  client.user.setActivity("{:robot:} Je suis GamerBot");
  setTimeOut(deux, 5000);
@@ -44,3 +43,5 @@ function sept()
     client.user.setActivity("{:arrows_clockwise:} https://discord.gg/zMHhBmq");
     setTimeOut(une, 5000);
 }
+  
+}); 
