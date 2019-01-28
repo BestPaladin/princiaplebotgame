@@ -46,5 +46,11 @@ function function5() {
 function function6() {
   console.log("Jeu actualisé en '{ℹ} "+prefix+"help'.");
   client.user.setActivity("{ℹ} "+prefix+"help");
+  setTimeout(function7, 5000);
+}
+
+function function7() {
+  console.log("Jeu actualisé en 'Serveur de support : http://discord.gg/zMHhBmq'.");
+  client.user.setActivity("Serveur de support : http://discord.gg/zMHhBmq");
   setTimeout(function1, 5000);
 }
